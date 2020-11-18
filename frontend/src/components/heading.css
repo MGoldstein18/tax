@@ -1,0 +1,17 @@
+.heading{
+    display: flex;
+    background-image: url('../Images/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 350px;
+    align-items: center;
+}
+
+.heading h1{
+    color: aliceblue;
+    font-size: 48px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}

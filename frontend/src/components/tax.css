@@ -1,0 +1,37 @@
+.active{
+    display: block;
+}
+
+.inactive{
+    display: none;
+}
+
+ul{
+    list-style: none;
+}
+
+.wrapper{
+    display: flex;
+    margin: 10%;
+}
+
+.wrapper > div{
+    border: 1px #333 solid;
+}
+
+.form{
+    flex: 1;
+    padding: 2%;
+    flex-wrap: wrap;
+}
+
+.form textarea{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.dictionary{
+    flex: 1;
+    padding: 2%;
+    flex-wrap: wrap;
+}
